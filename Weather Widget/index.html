@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		ul {
+  			list-style: none;
+  			width: 200px;
+		}
+		.desno{
+			float:right;
+		}
+	</style>
+</head>
+<body>
+	<ul>
+	  <li>
+	    <form>
+	      <input type="text" placeholder="Skopje" id="city">
+	      <button id="submit">Get Weather</button>
+	    </form>
+	  </li>
+	  <li>Status: <span id="limain"></span><img src="#" id="liicon" class="desno"></li>
+	    <li>Current: <span id="litemp" class="desno"></span></li>
+	    <li>Min: <span id="limin" class="desno"></span></li>
+	    <li>Max: <span id="limax" class="desno"></span></li>
+	    <li>Wind: <span id="liwind" class="desno"></span></li>
+	</ul>
+	<script src="main.js"></script>
+</body>
+</html>
